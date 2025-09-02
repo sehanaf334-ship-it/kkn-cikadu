@@ -790,7 +790,7 @@ const MapPage: React.FC = () => {
               </p>
             </Card>
 
-            <Card className="p-6 text-center hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700">
+<Card className="p-6 text-center hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700">
               <div className="w-12 h-12 bg-emerald-100 dark:bg-emerald-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Layers className="h-6 w-6 text-emerald-600 dark:text-emerald-400" />
               </div>
@@ -798,9 +798,8 @@ const MapPage: React.FC = () => {
               <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                 Gunakan kontrol layer dan zoom untuk pengalaman navigasi yang optimal dan mudah.
               </p>
-            <div>
+            </Card>
           </div>
-
           {/* Tips Penggunaan */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
