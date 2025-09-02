@@ -799,7 +799,7 @@ const MapPage: React.FC = () => {
                 Gunakan kontrol layer dan zoom untuk pengalaman navigasi yang optimal dan mudah.
               </p>
             </div>
-          </div>
+          
 
           {/* Tips Penggunaan */}
           <motion.div
