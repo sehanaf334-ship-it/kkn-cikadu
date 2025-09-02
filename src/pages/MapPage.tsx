@@ -852,7 +852,7 @@ const MapPage: React.FC = () => {
               </div>
             </Card>
           </motion.div>
-        <div>
+            </Card>div>
       </section>
 
       {/* CTA Section */}
