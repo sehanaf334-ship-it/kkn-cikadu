@@ -62,7 +62,7 @@ const MapPage: React.FC = () => {
   const [showVillageCenter, setShowVillageCenter] = useState(true);
 
   // Koordinat akurat Desa Cikadu, Pelabuhanratu, Sukabumi, Jawa Barat
-  const CIKADU_CENTER = [-6.9897, 106.5595]; // Koordinat yang lebih akurat untuk area Pelabuhanratu
+  const CIKADU_CENTER = [-6.999260873769918, 106.61350332605542]; // Koordinat akurat dari Google Maps Cikadu Palabuhanratu
 
   // Mock data lokasi berita dengan koordinat sekitar Desa Cikadu
   const mockNewsLocations: NewsLocation[] = [
@@ -70,24 +70,24 @@ const MapPage: React.FC = () => {
       id: '1',
       title: 'Panen Raya di Sawah Emas',
       description: 'Lokasi panen spektakuler yang memukau mata',
-      lat: -6.9907,
-      lng: 106.5605,
+      lat: -6.999760873769918,
+      lng: 106.61400332605542,
       category: 'pertanian',
     },
     {
       id: '2',
       title: 'Pembangunan Jembatan Harapan',
       description: 'Lokasi gotong royong membangun jembatan',
-      lat: -6.9887,
-      lng: 106.5585,
+      lat: -6.998760873769918,
+      lng: 106.61300332605542,
       category: 'sosial',
     },
     {
       id: '3',
       title: 'Festival Budaya Spektakuler',
       description: 'Panggung utama festival budaya tahunan',
-      lat: -6.9897,
-      lng: 106.5595,
+      lat: -6.999260873769918,
+      lng: 106.61350332605542,
       category: 'budaya',
     },
   ];
@@ -116,8 +116,8 @@ const MapPage: React.FC = () => {
   // Add lat/lng to mock businesses for map display - positioned around Cikadu Village
   const mockBusinessesWithCoords = mockBusinesses.map((business, index) => ({
     ...business,
-    lat: -6.9897 + (index * 0.003),
-    lng: 106.5595 + (index * 0.003),
+    lat: -6.999260873769918 + (index * 0.003),
+    lng: 106.61350332605542 + (index * 0.003),
   }));
 
   useEffect(() => {
