@@ -798,8 +798,8 @@ const MapPage: React.FC = () => {
               <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                 Gunakan kontrol layer dan zoom untuk pengalaman navigasi yang optimal dan mudah.
               </p>
-            </div>
-          
+            <div>
+          </div>
 
           {/* Tips Penggunaan */}
           <motion.div
